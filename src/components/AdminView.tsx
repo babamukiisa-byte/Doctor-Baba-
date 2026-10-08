@@ -232,10 +232,10 @@ const INITIAL_MESSAGES: ContactMessage[] = [
 
 const formatWhatsAppPhone = (phone?: string): string => {
   if (!phone || phone === 'Not provided' || phone.trim() === '') {
-    return '256767062834';
+    return '256761359634';
   }
   let cleaned = phone.replace(/[^0-9]/g, '');
-  if (!cleaned) return '256767062834';
+  if (!cleaned) return '256761359634';
 
   if (cleaned.length === 10 && cleaned.startsWith('0')) {
     cleaned = '256' + cleaned.slice(1);
@@ -578,7 +578,7 @@ export const AdminView: React.FC<AdminViewProps> = ({
   const handleOpenEmailModal = (msg: ContactMessage) => {
     setSelectedEmailMsg(msg);
     setEmailSubject(`Re: Spiritual Consultation - ${msg.service || 'Doctor Baba Mukisa'}`);
-    setEmailBody(`Dear ${msg.name},\n\nThank you for reaching out to Doctor Baba Mukisa regarding ${msg.service || 'your spiritual consultation request'}.\n\nIn response to your inquiry:\n"${msg.message.substring(0, 140)}..."\n\nI have received your spiritual request with deep reverence. Please be assured that your intentions and circumstances are being carefully reviewed.\n\nWarm spiritual regards,\nDoctor Baba Mukisa Traditional Temple\nWhatsApp: +256 767 062834\nEmail: help@doctorbabamukisa.com`);
+    setEmailBody(`Dear ${msg.name},\n\nThank you for reaching out to Doctor Baba Mukisa regarding ${msg.service || 'your spiritual consultation request'}.\n\nIn response to your inquiry:\n"${msg.message.substring(0, 140)}..."\n\nI have received your spiritual request with deep reverence. Please be assured that your intentions and circumstances are being carefully reviewed.\n\nWarm spiritual regards,\nDoctor Baba Mukisa Traditional Temple\nWhatsApp: +256 761 359634\nEmail: help@doctorbabamukisa.com`);
     setEmailSendStatus(null);
     setCopiedReplyText(false);
   };

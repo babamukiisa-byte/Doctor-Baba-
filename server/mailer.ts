@@ -170,7 +170,7 @@ export async function sendInquiryEmail(msgData: MessageData, customRecipient?: s
   const recipient = recipientsList.join(', ');
 
   const cleanPhone = (msgData.phone || '').replace(/[^0-9]/g, '');
-  const whatsappUrl = cleanPhone ? `https://wa.me/${cleanPhone}` : 'https://wa.me/256767062834';
+  const whatsappUrl = cleanPhone ? `https://wa.me/${cleanPhone}` : 'https://wa.me/256761359634';
 
   const htmlContent = `
     <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 650px; margin: 0 auto; background-color: #0b132b; color: #f8fafc; border: 1px solid #78350f; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);">
@@ -327,7 +327,7 @@ export async function sendReplyEmail(
           <p style="margin: 2px 0;">Official Website & Consultation Center</p>
         </div>
         <div style="text-align: right;">
-          <p style="margin: 2px 0;">WhatsApp: <strong>+256 767 062834</strong></p>
+          <p style="margin: 2px 0;">WhatsApp: <strong>+256 761 359634</strong></p>
           <p style="margin: 2px 0;">Email: <strong>${sender}</strong></p>
         </div>
       </div>

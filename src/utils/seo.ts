@@ -203,7 +203,7 @@ export function getSEOForView(
             provider: {
               '@type': 'Person',
               name: 'Doctor Baba Mukisa',
-              telephone: '+256767062834',
+              telephone: '+256761359634',
               url: BASE_URL
             },
             description: desc,
@@ -272,7 +272,7 @@ export function getSEOForView(
     case 'contact': {
       return {
         title: 'Contact Doctor Baba Mukisa - Temple Consultation & WhatsApp',
-        description: 'Book a confidential spiritual consultation with Doctor Baba Mukisa in Kampala, Uganda, or connect directly on WhatsApp +256767062834 for distance guidance.',
+        description: 'Book a confidential spiritual consultation with Doctor Baba Mukisa in Kampala, Uganda, or connect directly on WhatsApp +256761359634 for distance guidance.',
         keywords: 'Contact Doctor Baba Mukisa, WhatsApp spiritual advisor, book consultation Kampala, traditional healer phone number',
         url: `${BASE_URL}/contact`,
         type: 'website'

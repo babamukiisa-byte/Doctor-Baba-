@@ -24,7 +24,7 @@ export const WhatsAppProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [message, setMessage] = useState(DEFAULT_WHATSAPP_MESSAGE);
   const [originalMessage, setOriginalMessage] = useState(DEFAULT_WHATSAPP_MESSAGE);
 
-  const recipientNumber = SITE_INFO.whatsapp || "256767062834";
+  const recipientNumber = SITE_INFO.whatsapp || "256761359634";
 
   const openWhatsApp = useCallback((initialMessage?: string) => {
     const textToUse = (initialMessage && initialMessage.trim().length > 0)

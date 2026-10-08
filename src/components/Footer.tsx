@@ -248,7 +248,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab, onSelectServiceDet
                 </button>
               </div>
               <div className="flex items-center gap-2 pt-1">
-                <a href="https://wa.me/256767062834" target="_blank" rel="noopener noreferrer" className="bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg flex items-center gap-1.5 transition-all text-[10px] font-bold">
+                <a href={`https://wa.me/${SITE_INFO.whatsapp}`} target="_blank" rel="noopener noreferrer" className="bg-emerald-600 hover:bg-emerald-500 text-white px-3 py-1.5 rounded-lg flex items-center gap-1.5 transition-all text-[10px] font-bold">
                   <Phone className="w-3 h-3" />
                   WhatsApp Doctor
                 </a>

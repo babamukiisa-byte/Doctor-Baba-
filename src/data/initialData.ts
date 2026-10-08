@@ -3,8 +3,8 @@ import { BlogPost, Category, GalleryItem, BlogComment } from '../types';
 export const SITE_INFO = {
   title: "Doctor Baba Mukisa - Traditional Herbalist & Spiritual Guidance",
   tagline: "African Traditional Herbalist & Spiritual Consultation Practitioner",
-  phone: "+256767062834",
-  whatsapp: "256767062834",
+  phone: "+256761359634",
+  whatsapp: "256761359634",
   email: "help@doctorbabamukisa.com",
   address: "Plot 24 Buganda Street, Kampala, Uganda",
   templeLocation: "Kampala Temple, Uganda (Origin: Digo Land, Coastal Kenya)",
@@ -187,7 +187,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Requesting a Confidential Consultation",
-        body: "For personal guidance or consultation, reach out directly to Doctor Baba Mukisa via WhatsApp at +256767062834 or phone call +256767062834."
+        body: "For personal guidance or consultation, reach out directly to Doctor Baba Mukisa via WhatsApp at +256761359634 or phone call +256761359634."
       }
     ],
     post_date: "2026-07-15",
@@ -218,7 +218,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Book Your Consultation Session",
-        body: "Contact Doctor Baba Mukisa on WhatsApp or Call +256767062834 to learn more about traditional herbal cleansing consultations."
+        body: "Contact Doctor Baba Mukisa on WhatsApp or Call +256761359634 to learn more about traditional herbal cleansing consultations."
       }
     ],
     post_date: "2026-07-20",
@@ -249,7 +249,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Get Personal Consultation Today",
-        body: "Speak with Doctor Baba Mukisa directly via WhatsApp at +256767062834 or call +256767062834 for personal spiritual consultation."
+        body: "Speak with Doctor Baba Mukisa directly via WhatsApp at +256761359634 or call +256761359634 for personal spiritual consultation."
       }
     ],
     post_date: "2026-07-28",
@@ -280,7 +280,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Schedule a Household Blessing Consultation",
-        body: "Contact Doctor Baba Mukisa on WhatsApp +256767062834 or phone +256767062834 to discuss traditional home guidance."
+        body: "Contact Doctor Baba Mukisa on WhatsApp +256761359634 or phone +256761359634 to discuss traditional home guidance."
       }
     ],
     post_date: "2026-08-01",
@@ -311,7 +311,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Seek Personal Guidance",
-        body: "Reach out to Doctor Baba Mukisa on WhatsApp at +256767062834 or call +256767062834 for confidential spiritual meditation."
+        body: "Reach out to Doctor Baba Mukisa on WhatsApp at +256761359634 or call +256761359634 for confidential spiritual meditation."
       }
     ],
     post_date: "2026-08-04",
@@ -342,7 +342,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Consult Doctor Baba Mukisa",
-        body: "Contact Doctor Baba Mukisa on WhatsApp at +256767062834 or phone call +256767062834 for traditional property guidance."
+        body: "Contact Doctor Baba Mukisa on WhatsApp at +256761359634 or phone call +256761359634 for traditional property guidance."
       }
     ],
     post_date: "2026-08-06",
@@ -373,7 +373,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Start Your Reflection Journey",
-        body: "Cultivate inner balance today by consulting Doctor Baba Mukisa via WhatsApp +256767062834 for personalized spiritual guidance."
+        body: "Cultivate inner balance today by consulting Doctor Baba Mukisa via WhatsApp +256761359634 for personalized spiritual guidance."
       }
     ],
     post_date: "2026-08-10",
@@ -404,7 +404,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Schedule a Family Consultation",
-        body: "Contact Doctor Baba Mukisa on WhatsApp +256767062834 for a confidential family guidance and ancestral blessing session."
+        body: "Contact Doctor Baba Mukisa on WhatsApp +256761359634 for a confidential family guidance and ancestral blessing session."
       }
     ],
     post_date: "2026-08-12",
@@ -435,7 +435,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Request a Cleansing Consultation",
-        body: "If you are seeking spiritual renewal and peace of mind, reach out to Doctor Baba Mukisa on WhatsApp +256767062834 for a personal assessment."
+        body: "If you are seeking spiritual renewal and peace of mind, reach out to Doctor Baba Mukisa on WhatsApp +256761359634 for a personal assessment."
       }
     ],
     post_date: "2026-08-14",
@@ -466,7 +466,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Secure Your Partnership Consultation",
-        body: "Invest in the strength of your relationship. Book a marriage harmony consultation with Doctor Baba Mukisa via WhatsApp +256767062834 today."
+        body: "Invest in the strength of your relationship. Book a marriage harmony consultation with Doctor Baba Mukisa via WhatsApp +256761359634 today."
       }
     ],
     post_date: "2026-08-16",
@@ -497,7 +497,7 @@ export const INITIAL_BLOGS: BlogPost[] = [
       },
       {
         heading: "Begin Your Mindfulness Journey",
-        body: "Experience the benefits of traditional mindfulness. Contact Doctor Baba Mukisa for a private consultation via WhatsApp +256767062834."
+        body: "Experience the benefits of traditional mindfulness. Contact Doctor Baba Mukisa for a private consultation via WhatsApp +256761359634."
       }
     ],
     post_date: "2026-08-17",

@@ -127,7 +127,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onSelec
               <Phone className="w-3 h-3" /> {SITE_INFO.phone}
             </a>
             <a 
-              href={`https://wa.me/256767062834?text=Hello%20Doctor%20Baba%20Mukisa,%20I%20am%20reaching%20out%20for%20spiritual%20help`}
+              href={`https://wa.me/${SITE_INFO.whatsapp}?text=Hello%20Doctor%20Baba%20Mukisa,%20I%20am%20reaching%20out%20for%20spiritual%20help`}
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-emerald-400 transition-colors flex items-center gap-1 text-emerald-300 font-medium"
@@ -413,7 +413,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onSelec
 
           <div className="pt-4 border-t border-amber-900/40 space-y-2">
             <a
-              href={`https://wa.me/256767062834?text=Hello%20Doctor%20Baba%20Mukisa,%20I%20am%20reaching%20out%20for%20spiritual%20help`}
+              href={`https://wa.me/${SITE_INFO.whatsapp}?text=Hello%20Doctor%20Baba%20Mukisa,%20I%20am%20reaching%20out%20for%20spiritual%20help`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-3 bg-emerald-700 hover:bg-emerald-600 text-white rounded-lg font-bold text-sm min-h-[44px]"
